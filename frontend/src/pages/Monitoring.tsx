@@ -3,8 +3,7 @@ import "../assets/css/dashboard.css";
 
 import { useEffect, useState, useCallback } from "react";
 
-import OfficeMonitor from "../components/OfficeMonitor";
-import WarehouseMonitor from "../components/WarehouseMonitor";
+import ZoneMonitor from "../components/ZoneMonitor";
 import { getOfficeHistory, getWarehouseHistory } from "../services/api";
 
 interface Activity {

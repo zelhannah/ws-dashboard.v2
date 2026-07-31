@@ -1,5 +1,5 @@
 import "../assets/css/page.css";
-import SecurityEvent from "../components/SecurityEvent";
+import SecurityEvent from "../components/AlertTable";
 
 export default function Alerts() {
     return (
