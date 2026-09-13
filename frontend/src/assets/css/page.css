@@ -1,0 +1,167 @@
+.page-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:24px;
+
+}
+
+.page-header h2{
+
+    margin:0;
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+.page-header p{
+
+    margin-top:6px;
+
+    color:var(--text-secondary);
+
+}
+
+/* device.css */
+.device-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.06);
+
+    transition:.25s;
+
+    height:100%;
+
+}
+
+.device-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 28px rgba(0,0,0,.10);
+
+}
+
+.device-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:24px;
+
+}
+
+.device-header h4{
+
+    margin:0;
+
+    font-weight:700;
+
+}
+
+.device-header small{
+
+    color:var(--text-secondary);
+
+}
+
+.device-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.device-info div{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding-bottom:12px;
+
+    border-bottom:1px solid #f2f2f2;
+
+}
+
+.device-info div:last-child{
+
+    border:none;
+
+}
+
+.device-info span{
+
+    color:var(--text-secondary);
+
+}
+/* 
+card.css */
+.info-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px 0;
+
+    border-bottom:1px solid #f1f1f1;
+
+}
+
+.info-row:last-child{
+
+    border-bottom:none;
+
+}
+
+.sensor-list{
+
+    margin:0;
+
+    padding-left:18px;
+
+}
+
+.sensor-list li{
+
+    margin-bottom:8px;
+
+    color:var(--text-secondary);
+
+}
+
+.table thead th{
+
+    font-weight:600;
+
+    color:var(--text-secondary);
+
+    border-bottom:2px solid #f1f1f1;
+
+}
+
+.table tbody td{
+
+    vertical-align:middle;
+
+}
